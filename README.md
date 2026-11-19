@@ -1,7 +1,7 @@
 # cake-shaper
 Интерактивный установщик (install-shaper.sh). Он сам находит сетевые интерфейсы в системе, спрашивает у вас WAN, LAN и нужную скорость, создает рабочий скрипт шейпера, конфиг и регистрирует службу systemd.
 
-### Скачать
+### 💾 Скачать
 
 ```sh
 wget -O install-shaper.sh https://raw.githubusercontent.com/atokarev-tech/cake-shaper/refs/heads/main/install-shaper.sh
@@ -13,19 +13,19 @@ wget -O install-shaper.sh https://raw.githubusercontent.com/atokarev-tech/cake-s
 curl -o install-shaper.sh https://raw.githubusercontent.com/atokarev-tech/cake-shaper/refs/heads/main/install-shaper.sh
 ```
 
-### Дать права на запуск
+### ❎ Дать права на запуск
 
 ```sh
 chmod +x install-shaper.sh
 ```
 
-### Запуск
+### 🚀 Запуск
 
 ```sh
 sudo ./install-shaper.sh
 ```
 
-### Управление
+### ⚙️ Управление
 
 - `systemctl status cake-shaper` - проверить статус службы
 - `systemctl stop cake-shaper` - временно отключить шейпер
