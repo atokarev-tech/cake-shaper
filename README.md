@@ -24,3 +24,12 @@ chmod +x install-shaper.sh
 ```sh
 sudo ./install-shaper.sh
 ```
+
+### Управление
+
+- `systemctl status cake-shaper` - проверить статус службы
+- `systemctl stop cake-shaper` - временно отключить шейпер
+- `systemctl start cake-shaper` - включить шейпер обратно
+- `systemctl restart cake-shaper` - перезапустить (после правки `/etc/default/cake-shaper`)
+- `/usr/local/sbin/cake-shaper.sh status` - посмотреть статистику пакетов CAKE
+- `systemctl disable cake-shaper` - выключить шейпер
